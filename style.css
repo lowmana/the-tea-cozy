@@ -74,7 +74,7 @@ nav li {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
   background-position: center;
   background-size: cover;
-  width: 54.54rem;
+  max-width: 54.54rem;
   height: 31.18rem;
 
   margin-left: auto;
@@ -133,7 +133,7 @@ nav li {
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*x6eyvz*_ga*ODkzMjk0NjU4OS4xNjU3MDE3MTMz*_ga_3LRZM6TM9L*MTY2MTQ4MDM5My40MS4xLjE2NjE0ODA0NzYuNjAuMC4w");
   background-position: center;
   background-size: cover;
-  width: 54.54rem;
+  max-width: 54.54rem;
   height: 22.72rem;
   margin: 2rem auto;
 }
