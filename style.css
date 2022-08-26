@@ -21,6 +21,12 @@ h4 {
   opacity: 0.8;
 }
 
+h5 {
+  font-size: 0.7rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
 .banner {
   background-color: black;
   position: fixed;
@@ -151,4 +157,19 @@ nav li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.contact h2 {
+  padding-bottom: 1rem;
+}
+
+.contact h5 {
+  line-height: 2rem;
+}
+
+.footer h5 {
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  text-align: left;
+  font-size: 0.8rem;
 }
