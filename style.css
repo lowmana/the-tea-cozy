@@ -5,6 +5,22 @@
   font-size: 22px;
 }
 
+body {
+  background-color: black;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+h4 {
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
 .banner {
   background-color: black;
   position: fixed;
@@ -15,6 +31,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid grey;
+
+  opacity: 0.8;
 }
 
 .banner .image-container {
@@ -28,6 +47,7 @@
 
 .banner .image-container img {
   max-height: 72%;
+  width: auto;
 }
 
 nav {
@@ -42,4 +62,93 @@ nav li {
   display: inline;
   padding: 1rem;
   text-decoration: underline;
+}
+
+.main {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 54.54rem;
+  height: 31.18rem;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main .content {
+  background-color: black;
+}
+
+.main .content h2 {
+  padding-top: 0.5rem;
+}
+
+.main .content h4 {
+  line-height: 1.8;
+  padding-bottom: 0.5rem;
+}
+
+.tea-of-the-month {
+  max-width: 45.45rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+}
+
+.title h4 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.tea-of-the-month .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-piece {
+  padding: 0.55rem;
+}
+
+.image-container img {
+  width: 13.63rem;
+  height: 9.09rem;
+  padding-bottom: 0.3rem;
+}
+
+.location {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*x6eyvz*_ga*ODkzMjk0NjU4OS4xNjU3MDE3MTMz*_ga_3LRZM6TM9L*MTY2MTQ4MDM5My40MS4xLjE2NjE0ODA0NzYuNjAuMC4w");
+  background-position: center;
+  background-size: cover;
+  width: 54.54rem;
+  height: 22.72rem;
+  margin: 2rem auto;
+}
+
+.location .title {
+  padding-top: 2rem;
+  opacity: 1;
+}
+
+.location-boxes {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.location-box {
+  background: black;
+  width: 13.63rem;
+  height: 13.63rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
